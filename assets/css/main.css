@@ -2051,6 +2051,16 @@ input, select, textarea {
 			padding: 1em 0 0 1em;
 		}
 
+
+
+.middle{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+
 /* Form */
 
 	form {
