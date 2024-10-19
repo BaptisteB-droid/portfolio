@@ -2318,6 +2318,18 @@ input, select, textarea {
 			padding: 0;
 		}
 
+
+#contour{
+	-webkit-text-stroke: 1px black;
+}
+
+
+mark{
+	background-color: #141414;
+	color : snow
+}
+
+
 /* Image */
 
 	.image {
