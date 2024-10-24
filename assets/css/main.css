@@ -2733,6 +2733,7 @@ mark{
 
 			.tiles article.style1 > .image:before {
 				background-color: gray;
+				opacity: 0;
 			}
 
 			.tiles article.style2 > .image:before {
