@@ -2599,7 +2599,9 @@ mark{
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
 		position: relative;
-		margin: -2.5em 0 0 -2.5em;
+		/*margin: -2.5em 0 0 -2.5em;*/
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 		.tiles article {
@@ -2608,8 +2610,10 @@ mark{
 			-ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
 			transition: transform 0.5s ease, opacity 0.5s ease;
 			position: relative;
-			width: calc(33.33333% - 2.5em);
-			margin: 2.5em 0 0 2.5em;
+			/* Changer la taille des tiles, garde la width en commentaires enlever la height */
+			width: /*calc(33.33333% - 2.5em)*/ 1200px;
+			height: 400px;
+			margin: 300px 0 0 2.5em;
 		}
 
 			.tiles article > .image {
