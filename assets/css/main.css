@@ -2599,7 +2599,8 @@ mark{
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
 		position: relative;
-		/*margin: -2.5em 0 0 -2.5em;*/
+		margin: -2.5em 0 0 -2.5em;
+
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -2871,7 +2872,7 @@ mark{
 			color: inherit;
 			font-weight: 900;
 			letter-spacing: 0.35em;
-			margin: 0 0 2.5em 0;
+			margin: 0 0  0;
 			text-decoration: none;
 			text-transform: uppercase;
 			display: inline-block;
